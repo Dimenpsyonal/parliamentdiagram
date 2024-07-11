@@ -183,10 +183,10 @@ function CallDiagramScript() {
             // Show the default-hidden div
             $("#togglablepost").show();
 
-            // This will get the first node with id "newdiag"
-            const newdiag = document.getElementById("newdiag");
+            // This will get the first node with id "postcontainer"
+            const postcontainer = document.getElementById("postcontainer");
 
-            const newdiag = newdiag.insertBefore(document.createElement('p'), newdiag.firstChild);
+            const newdiag = postcontainer.insertBefore(document.createElement('p'), postcontainer.firstChild);
 
             // Now add the svg image to the page
             const img = document.createElement("img");
